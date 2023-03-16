@@ -22,6 +22,7 @@ Note.
   * Encoder, autoregressive layers & InfoNCE loss are defined in separate files (encoder.py, autoregressor.py, infonce.py)
   * InfoNCE loss is calculated using all time steps of representation Z
   * Spijkervet's infonce.py contains complex positive & negative sampling.
+    
     In my infonce.py, these operations are omitted for simplicity & InfoNCE loss is calculated in a way similar to that of jefflai108
 
 (3) **compare_two_CPC_models**
