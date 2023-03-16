@@ -6,7 +6,7 @@ Repository for simple audio-related machine learning models
 
 ## CPC
 
-Directory for simple Contrastive Predictive Coding (CPC) models
+Directory for simple Contrastive Predictive Coding (CPC) models to learn representations of 1D audio signal
 * reference paper : Oord, A. V. D., Li, Y., & Vinyals, O. (2018). Representation learning with contrastive predictive coding. arXiv preprint arXiv:1807.03748.
 
 <br/>
