@@ -3,6 +3,7 @@
 Repository for simple audio-related machine learning models
 
 <br/>
+<br/>
 
 ## CPC
 
@@ -19,6 +20,8 @@ Directory for simple CPC models (reference : jefflai108's github (https://github
   * Encoder, autoregressive layers & InfoNCE loss are all defined in model.py
   * However, InfoNCE loss is calculated using only 1 time sample of representation Z
 
+<br/>
+
 ### (2) Spijkervet
 
 Directory for simple CPC models (reference : Spijkervet's github (https://github.com/Spijkervet/contrastive-predictive-coding))
@@ -29,6 +32,8 @@ Directory for simple CPC models (reference : Spijkervet's github (https://github
   * Spijkervet's infonce.py contains complex positive & negative sampling.
     
     In my infonce.py, these operations are omitted for simplicity & InfoNCE loss is calculated in a way similar to that of jefflai108
+
+<br/>
 
 ### (3) compare_two_CPC_models
 
