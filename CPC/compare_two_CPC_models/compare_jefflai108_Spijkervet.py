@@ -1,7 +1,7 @@
 # ***** NOTE *****
 # To compare CPC from jefflai108 & Spijkervet,
 # you should modify some lines with comments like "# ***** When comparing with ...""
-# in [../jefflai108/model.py] and [./cpc.py]
+# in [./jefflai108/model.py] and [./Spijkervet/cpc.py]
 # ****************
 
 import sys
