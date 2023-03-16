@@ -4,11 +4,8 @@ from torch.utils import data
 from torch import optim
 
 from cpc import CPC
-
-sys.path.append(r"C:\Users\hyunsuk yoon\Desktop\GITHUB_PROJECTS\myCPC\jefflai108")
 from datareader import RawDataset
 from training import train
-
 
 
 def main():
