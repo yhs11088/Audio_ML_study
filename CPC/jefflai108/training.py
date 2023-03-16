@@ -17,8 +17,8 @@ def train(model, device, train_loader, optimizer, epoch, batch_size):
         hidden = torch.zeros((1, len(data), 256)).to(device)
 
         # forward
-        #acc, loss, hidden = model(data, hidden)
-        loss, hidden = model(data, hidden)
+        acc, loss, hidden = model(data, hidden)
+        #loss, hidden = model(data, hidden)
 
         # backward
         loss.backward()
@@ -31,7 +31,7 @@ def train(model, device, train_loader, optimizer, epoch, batch_size):
             trained = batch_idx * len(data)
             total = len(train_loader.dataset)
             percent = trained / total * 100
-            #print(f"Train Epoch {epoch} [{trained} / {total} ({percent:.0f}%)]\tAccruacy : {acc:.4f}\tLoss : {loss.item():.6f}")
-            print(f"Train Epoch {epoch} [{trained} / {total} ({percent:.0f}%)]\tLoss : {loss.item():.6f}")
+            print(f"Train Epoch {epoch} [{trained} / {total} ({percent:.0f}%)]\tAccruacy : {acc:.4f}\tLoss : {loss.item():.6f}")
+            #print(f"Train Epoch {epoch} [{trained} / {total} ({percent:.0f}%)]\tLoss : {loss.item():.6f}")
 
         
