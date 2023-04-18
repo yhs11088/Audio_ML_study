@@ -39,8 +39,9 @@ Directory for simple CPC models (reference : Spijkervet's github (https://github
 
 Directory for simple comparison of jefflai108 & Spijkervet's CPC models
 
-<br/>
-<br/>
+
+---
+
 
 ## VAE
 
