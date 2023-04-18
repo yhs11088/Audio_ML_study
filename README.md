@@ -47,7 +47,7 @@ Directory for simple comparison of jefflai108 & Spijkervet's CPC models
 ## VAE
 
 Directory for simple Variational Auto-Encoder (VAE) model to learn representation of MNIST image and generation of new MNIST images
-* reference paper : 
+* reference paper : Kingma, D. P., & Welling, M. (2013). Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.
 
 <br/>
 
