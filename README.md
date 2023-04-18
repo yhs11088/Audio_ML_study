@@ -39,4 +39,17 @@ Directory for simple CPC models (reference : Spijkervet's github (https://github
 
 Directory for simple comparison of jefflai108 & Spijkervet's CPC models
 
+<br/>
+<br/>
 
+## VAE
+
+Directory for simple Variational Auto-Encoder (VAE) model to learn representation of MNIST image and generation of new MNIST images
+* reference paper : 
+
+<br/>
+
+### (1) Jackson-Kang
+
+Directory for simple VAE models (refernece : Jackson-Kang's github)
+(https://github.com/Jackson-Kang/Pytorch-VAE-tutorial)
