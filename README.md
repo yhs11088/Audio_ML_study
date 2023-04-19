@@ -49,10 +49,32 @@ Directory for simple comparison of jefflai108 & Spijkervet's CPC models
 Directory for simple Variational Auto-Encoder (VAE) model to learn representation of MNIST image and generation of new MNIST images
 * reference paper : Kingma, D. P., & Welling, M. (2013). Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.
 
-
 <br/>
 
 ### (1) Jackson-Kang
 
 Directory for simple VAE models (refernece : Jackson-Kang's github)
 (https://github.com/Jackson-Kang/Pytorch-VAE-tutorial)
+
+
+<br/>
+<br/>
+
+
+## PPO
+
+Directory for simple discrete Proximal Policy Optimization (PPO) model 
+* reference paper : Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347.
+
+<br/>
+
+### (1) seungeunrho
+
+Directory for simple discrete PPO model (reference : seungeunrho's github)
+(https://github.com/seungeunrho/minimalRL)
+
+**NOTE**
+  * seungeunrho's github contains other reinforcement learning (RL) algorithms
+  * In this github directory, however, only discrete PPO model (i.e. PPO that works for environment with discrete action space) is implemented
+  * Training result figures are saved in directory ./figures
+  * Pre-trained model parameters are saved in directory ./params
