@@ -27,7 +27,7 @@ Directory for simple CPC models (reference : [jefflai108's github](https://githu
 Directory for simple CPC models (reference : [Spijkervet's github](https://github.com/Spijkervet/contrastive-predictive-coding))
 
 **NOTE**
-  * Encoder, autoregressive layers & InfoNCE loss are defined in separate files (encoder.py, autoregressor.py, infonce.py)
+  * Encoder, autoregressive layers & InfoNCE loss are defined in separate files (`encoder.py`, `autoregressor.py`, `infonce.py`)
   * InfoNCE loss is calculated using all time steps of representation Z
   * Spijkervet's infonce.py contains complex positive & negative sampling.
     
