@@ -90,6 +90,24 @@ Directory for running A2C/PPO algorihtms to simple custom gym environment
 
 <br/>
 
+* directory structure
+~~~bash
+my_gym_env
+├── veca
+│   └── envs
+|   |   ├── __init__.py
+|   |   ├── playground_v0.py
+|   |   └── playground_v1.py 
+│   └── __init__.py
+├── setup.py
+├── main.py
+├── simple_main.py
+├── A2C_Playground-v0.zip
+├── PPO_Playground-v0.zip
+└── run.sh
+~~~ 
+
+
 
 **NOTE**
   * Stable-baselines3 models seem to be incompatible with gym==0.26.0. Thus, to use stable-baselines3, gym==0.21.0 is recommended
