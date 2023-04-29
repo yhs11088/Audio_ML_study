@@ -95,9 +95,9 @@ Directory for running A2C/PPO algorihtms to simple custom gym environment
 my_gym_env
 ├── veca
 │   └── envs
-|   |   ├── __init__.py
-|   |   ├── playground_v0.py
-|   |   └── playground_v1.py 
+│   │   ├── __init__.py
+│   │   ├── playground_v0.py
+│   │   └── playground_v1.py 
 │   └── __init__.py
 ├── setup.py
 ├── main.py
@@ -115,7 +115,9 @@ my_gym_env
   * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes gym==0.26.0
   * Pretrained A2C/PPO models are saved as zip files
   * You may
+  
     <br/>
+    
     (1) first install/register the custom environment to gym
     ~~~bash
     cd my_gym_env
@@ -128,6 +130,7 @@ my_gym_env
     
     <br/>
     or
+    <br/>
     <br/>
     
     (1) run simple_main.py
