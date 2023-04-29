@@ -112,8 +112,8 @@ my_gym_env
 
 **NOTE**
   * Stable-baselines3 models seem to be incompatible with `gym==0.26.0`. Thus, to use stable-baselines3, `gym==0.21.0` is recommended
-  * ./veca/envs/playground_v0.py contains "PlaygroundEnv_v0" class, which is a simple custom environment and assumes `gym==0.21.0`
-  * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes `gym==0.26.0`
+  * `./veca/envs/playground_v0.py` contains "PlaygroundEnv_v0" class, which is a simple custom environment and assumes `gym==0.21.0`
+  * `./veca/envs/plyagounrd_v1.py` contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes `gym==0.26.0`
   * Pretrained A2C/PPO models are saved as zip files
   * You may
     
