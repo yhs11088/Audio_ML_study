@@ -107,6 +107,7 @@ my_gym_env
 └── run.sh
 ~~~ 
 
+<br/>
 
 
 **NOTE**
@@ -115,8 +116,6 @@ my_gym_env
   * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes gym==0.26.0
   * Pretrained A2C/PPO models are saved as zip files
   * You may
-  
-    <br/>
     
     (1) first install/register the custom environment to gym
     ~~~bash
@@ -128,10 +127,7 @@ my_gym_env
     python main.py
     ~~~
     
-    <br/>
     or
-    <br/>
-    <br/>
     
     (1) run simple_main.py
     ~~~bash
