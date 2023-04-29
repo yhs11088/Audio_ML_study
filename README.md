@@ -122,14 +122,14 @@ my_gym_env
     cd my_gym_env
     pip install -e .
     ~~~
-    (2) run main.py 
+    (2) run `main.py`
     ~~~bash
     python main.py
     ~~~
     
     or
     
-    (1) run simple_main.py
+    (1) run `simple_main.py`
     ~~~bash
     python simple_main.py
     ~~~
