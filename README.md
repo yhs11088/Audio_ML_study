@@ -87,13 +87,22 @@ Directory for simple discrete PPO model (reference : [seungeunrho's github](http
 Directory for running A2C/PPO algorihtms to simple custom gym environment
 * main reference for custom gym environment : [gym documentation](https://www.gymlibrary.dev/content/environment_creation/)
 
+
+<br/>
+
+
 **NOTE**
   * Stable-baselines3 models seem to be incompatible with gym==0.26.0. Thus, to use stable-baselines3, gym==0.21.0 is recommended
   * ./veca/envs/playground_v0.py contains "PlaygroundEnv_v0" class, which is a simple custom environment and assumes gym==0.21.0
   * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes gym==0.26.0
   * Pretrained A2C/PPO models are saved as zip files
   * You may
-    (1) first install/register the custom environment to gym ("cd my_gym_env | pip install -e .")
+    (1) first install/register the custom environment to gym
+    ~~~bash
+    cd my_gym_env
+    pip install -e .
+    ~~~
+    ("cd my_gym_env | pip install -e .")
     (2) run main.py ("python main.py")
     or
     (1) run simple_main.py ("python simple_main.py")
