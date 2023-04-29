@@ -97,13 +97,23 @@ Directory for running A2C/PPO algorihtms to simple custom gym environment
   * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes gym==0.26.0
   * Pretrained A2C/PPO models are saved as zip files
   * You may
+    <br/>
     (1) first install/register the custom environment to gym
     ~~~bash
     cd my_gym_env
     pip install -e .
     ~~~
-    ("cd my_gym_env | pip install -e .")
-    (2) run main.py ("python main.py")
+    (2) run main.py 
+    ~~~bash
+    python main.py
+    ~~~
+    
+    <br/>
     or
-    (1) run simple_main.py ("python simple_main.py")
+    <br/>
+    
+    (1) run simple_main.py
+    ~~~bash
+    python simple_main.py
+    ~~~
     to run the custom environment & train/test RL algorihtms
