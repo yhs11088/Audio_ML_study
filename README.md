@@ -17,7 +17,7 @@ Directory for simple Contrastive Predictive Coding (CPC) models to learn represe
 Directory for simple CPC models (reference : [jefflai108's github](https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch))
 
 **NOTE**
-  * Encoder, autoregressive layers & InfoNCE loss are all defined in model.py
+  * Encoder, autoregressive layers & InfoNCE loss are all defined in `model.py`
   * However, InfoNCE loss is calculated using only 1 time sample of representation Z
 
 <br/>
@@ -31,7 +31,7 @@ Directory for simple CPC models (reference : [Spijkervet's github](https://githu
   * InfoNCE loss is calculated using all time steps of representation Z
   * Spijkervet's infonce.py contains complex positive & negative sampling.
     
-    In my infonce.py, these operations are omitted for simplicity & InfoNCE loss is calculated in a way similar to that of jefflai108
+    In my `infonce.py`, these operations are omitted for simplicity & InfoNCE loss is calculated in a way similar to that of jefflai108
 
 <br/>
 
@@ -74,8 +74,8 @@ Directory for simple discrete PPO model (reference : [seungeunrho's github](http
 **NOTE**
   * seungeunrho's github contains other reinforcement learning (RL) algorithms
   * In this github directory, however, only discrete PPO model (i.e. PPO that works for environment with discrete action space) is implemented
-  * Training result figures are saved in directory ./figures
-  * Pre-trained model parameters are saved in directory ./params
+  * Training result figures are saved in directory `./figures`
+  * Pre-trained model parameters are saved in directory `./params`
   
   
 <br/>
@@ -111,9 +111,9 @@ my_gym_env
 
 
 **NOTE**
-  * Stable-baselines3 models seem to be incompatible with gym==0.26.0. Thus, to use stable-baselines3, gym==0.21.0 is recommended
-  * ./veca/envs/playground_v0.py contains "PlaygroundEnv_v0" class, which is a simple custom environment and assumes gym==0.21.0
-  * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes gym==0.26.0
+  * Stable-baselines3 models seem to be incompatible with `gym==0.26.0`. Thus, to use stable-baselines3, `gym==0.21.0` is recommended
+  * ./veca/envs/playground_v0.py contains "PlaygroundEnv_v0" class, which is a simple custom environment and assumes `gym==0.21.0`
+  * ./veca/envs/plyagounrd_v1.py contains "PlaygroundEnv_v1" class, which is almost identical to "PlaygroundEnv_v0" except that it assumes `gym==0.26.0`
   * Pretrained A2C/PPO models are saved as zip files
   * You may
     
